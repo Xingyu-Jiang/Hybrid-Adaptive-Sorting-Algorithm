@@ -45,13 +45,13 @@ To evaluate the performance of the hybrid sorting algorithm, benchmarking tests 
 
 ## Discussion
 
-The hybrid sorting function was able to meet the expectation of being able to adapt to changes in the sample size. When the sample size was small enough, the hybrid sort was faster than Quick Sort, although it was unexpected that it was faster than Insertion Sort.
+- The hybrid sorting function was able to meet the expectation of being able to adapt to changes in the sample size. When the sample size was small enough, the hybrid sort was faster than Quick Sort, although it was unexpected that it was faster than Insertion Sort.
 
-The theoretical analysis supported the observed performance, confirming that the algorithm's expected time complexity was O(n*log(n)) in most cases.
+- The theoretical analysis supported the observed performance, confirming that the algorithm's expected time complexity was O(n*log(n)) in most cases.
 
-The use of Insertion Sort for small subarrays and the depth limit mechanism ensured that the algorithm avoided excessive overhead from recursion, contributing to its efficiency.
+- The use of Insertion Sort for small subarrays and the depth limit mechanism ensured that the algorithm avoided excessive overhead from recursion, contributing to its efficiency.
 
-When the sample size exceeded 20,000, the system couldn't respond due to taking a long time performing Insertion Sort, Selection Sort, and Bubble Sort.
+- When the sample size exceeded 20,000, the system couldn't respond due to taking a long time performing Insertion Sort, Selection Sort, and Bubble Sort.
 
 ## Theoretical Analysis
 
